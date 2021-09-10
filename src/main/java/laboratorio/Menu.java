@@ -1,6 +1,12 @@
 package laboratorio;
 import laboratorio.punto1.CompararNumeros;
 import laboratorio.punto10.EliminaEspacio;
+import laboratorio.punto11.ContarStr;
+import laboratorio.punto12.ComparaStr;
+import laboratorio.punto13.ConsultaFecha;
+import laboratorio.punto14.Contardor;
+import laboratorio.punto15.MenuCine;
+import laboratorio.punto16.EjecutarPersona;
 import laboratorio.punto2.CompararNumerosUser;
 import laboratorio.punto3.AreaCirculo;
 import laboratorio.punto4.AgregarIva;
@@ -48,6 +54,24 @@ public class Menu {
                 break;
             case 10:
                 EliminaEspacio.eliminarEspacios();
+                break;
+            case 11:
+                ContarStr.contarVocales();
+                break;
+            case 12:
+                ComparaStr.compararStrs();
+                break;
+            case 13:
+                ConsultaFecha.consultarfecha();
+                break;
+            case 14:
+                Contardor.ContarDesde();
+                break;
+            case 15:
+                MenuCine.crearMenu();
+                break;
+            case 16:
+                EjecutarPersona.ejecutar();
                 break;
         }
     }
